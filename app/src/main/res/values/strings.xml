@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Myphone</string>
+
+    <string name="launcher_title">NIUBILITY PHONE</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_phone">MyPhoneActivity</string>
+    <string name="service_name">MyPhoneService</string>
+    <string name="destory_service">destory service</string>
+</resources>
