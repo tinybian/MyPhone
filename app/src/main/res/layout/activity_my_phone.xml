@@ -10,10 +10,10 @@
     tools:context=".MyPhoneActivity">
 
     <Button
+        android:layout_gravity="center"
         android:id="@+id/destory_myphoneservice"
         android:text="@string/destory_service"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

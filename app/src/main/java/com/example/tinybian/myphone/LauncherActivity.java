@@ -28,7 +28,7 @@ public class LauncherActivity extends Activity {
             Log.d("LuancherActivity", "start MyPhoneService");
             startService(new Intent(ACTION_MAIN).setClass(this, MyPhoneService.class));
             //execute onServiceReady() when service started.
-            mThread=new WaitServiceReadyThread();
+            mThread = new WaitServiceReadyThread();
             mThread.start();
         }
     }
@@ -55,7 +55,7 @@ public class LauncherActivity extends Activity {
             {
                 try {
                     Log.d("wait service ready", "waiting.....");
-                    sleep(10);
+                    sleep(30);
                 } catch (InterruptedException e) {
                     throw new RuntimeException("wait Service sleep() has been interrupt!");
                 }
